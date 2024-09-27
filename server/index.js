@@ -27,7 +27,7 @@ const connect = () => {
     })
 }
 
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:3001']
+const allowedOrigins = ['https://ensayo-sandbox-1cvd.vercel.app', 'https://ensayo-sandbox-yk3i.vercel.app']
 
 
 app.use(cookieParser())
