@@ -1,3 +1,13 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-}
+    "rewrites": [
+      {
+        "source": "/api/(.*)",  
+        "destination": "https://ensayo-sandbox.vercel.app/api/$1" 
+      },
+      {
+        "source": "/(.*)",  
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
